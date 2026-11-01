@@ -1,0 +1,2494 @@
+{
+  "version": 2,
+  "cobertura_funcional": {
+    "version": 1,
+    "modo_entrega": "parcial",
+    "aceptar_pendientes": true,
+    "estado": "pendiente",
+    "semantica": "No certificada: se evalúa el alcance de los generadores, no todas las reglas del negocio ni los RNF.",
+    "ejecucion": "Requiere verificación técnica independiente para la huella actual de archivos.",
+    "exportable": true,
+    "bloqueos": [
+      "RF-01: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-02: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-03: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-04: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-04: Capacidades sin implementación: calculos.",
+      "RF-05: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-05: Capacidades sin implementación: tiempo_real.",
+      "RF-06: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-06: No hay operación asociada por identificador a una entidad tipada.",
+      "RF-06: Capacidades sin implementación: tiempo_real.",
+      "RF-07: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-08: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-08: Capacidades sin implementación: dispositivos.",
+      "RF-09: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-10: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-10: Capacidades sin implementación: reportes.",
+      "El stack solicita tiempo real y todavía no existe ese módulo."
+    ],
+    "requisitos": [
+      {
+        "requisito": "RF-01",
+        "operacion": "rf-01",
+        "entidad": "menu",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "c03d320b071abfb0bcd6c50dc32e1f5216002f232c9383d6b679b824ecba90ee",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-02",
+        "operacion": "rf-02",
+        "entidad": "reserva",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "cd5a101e33f659052391bfc169ab6edafa17ed8ea25c12434ce2dcfd67d81eaf",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-03",
+        "operacion": "rf-03",
+        "entidad": "paqueteprepagado",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "fa7020e3e8dc062271e0cfa772d39de084823b43b23ed0ec1637f0b6f0fd6398",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-04",
+        "operacion": "rf-04",
+        "entidad": "puntos",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "calculos"
+        ],
+        "sugerencias": [
+          {
+            "id": "calculos",
+            "etiqueta": "Cálculos y procesos de negocio",
+            "evidencia": "descripción: «calcular»",
+            "alternativa": "Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "7884f3f6a2ad90d43048899f8b0b6b670c0218226800ed0a437327fe3a329a82",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: calculos."
+        ]
+      },
+      {
+        "requisito": "RF-05",
+        "operacion": "rf-05",
+        "entidad": "pedido",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "tiempo_real"
+        ],
+        "sugerencias": [
+          {
+            "id": "tiempo_real",
+            "etiqueta": "Tiempo real",
+            "evidencia": "nombre: «tiempo real»",
+            "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "e1ced7179dff43c3f1f38c84c530f6c5390dab775eb8b32b2f3dc66af3125b24",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: tiempo_real."
+        ]
+      },
+      {
+        "requisito": "RF-06",
+        "operacion": "rf-06",
+        "entidad": null,
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "tiempo_real"
+        ],
+        "sugerencias": [
+          {
+            "id": "tiempo_real",
+            "etiqueta": "Tiempo real",
+            "evidencia": "descripción: «tiempo real»",
+            "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "1dd3b260d77c8b9515bc24cfd33ac7672b1e7e0e3b3d68c960c4e41012b53f9c",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "No hay operación asociada por identificador a una entidad tipada.",
+          "Capacidades sin implementación: tiempo_real."
+        ]
+      },
+      {
+        "requisito": "RF-07",
+        "operacion": "rf-07",
+        "entidad": "mesa",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "31756aa844f7d652197f8d40d246d6771614dd80a4c484b30338cd88f8e1f581",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-08",
+        "operacion": "rf-08",
+        "entidad": "reserva",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "dispositivos"
+        ],
+        "sugerencias": [
+          {
+            "id": "dispositivos",
+            "etiqueta": "Cámara, códigos QR y biometría",
+            "evidencia": "nombre: «código QR»",
+            "alternativa": "No se accede al hardware del dispositivo; los códigos se escriben como texto.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "ff3c1511f444f1ebfa6fe50bfcbb2220fec1fed0ec799081a3116fb37b244a2d",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: dispositivos."
+        ]
+      },
+      {
+        "requisito": "RF-09",
+        "operacion": "rf-09",
+        "entidad": "cliente",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "52306ac5fb47992a9f87d3fff3e78370d836ea308280531bd7e27ebc1295419b",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-10",
+        "operacion": "rf-10",
+        "entidad": "menu",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "reportes"
+        ],
+        "sugerencias": [
+          {
+            "id": "reportes",
+            "etiqueta": "Reportes, gráficos y exportación",
+            "evidencia": "nombre: «reportes»",
+            "alternativa": "Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "839896163230a048a1987af45031170c14024cdc931b608f7e9260682b545d38",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: reportes."
+        ]
+      }
+    ]
+  },
+  "fuente_cobertura": {
+    "requisitos": [
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-01",
+        "nombre": "Visualización de menú digital",
+        "descripcion": "El sistema DEBE mostrar un menú digital en la aplicación móvil para que los clientes consulten los platillos disponibles.",
+        "prioridad": "Alta",
+        "actores": [
+          "Cliente"
+        ],
+        "precondiciones": "El cliente cuenta con la aplicación móvil instalada y conexión a la red.",
+        "poscondiciones": "El menú digital se muestra actualizado con los ítems disponibles.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "Queremos una aplicación móvil para clientes con menú digital",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.973Z",
+        "updatedAt": "2026-11-01T19:28:11.037Z",
+        "id": "6ae792cabf0175908a2ca81f"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-02",
+        "nombre": "Reserva de mesa o silla",
+        "descripcion": "El sistema DEBE permitir a los clientes realizar la reserva de una mesa o silla a través de la aplicación móvil.",
+        "prioridad": "Alta",
+        "actores": [
+          "Cliente"
+        ],
+        "precondiciones": "El cliente ha seleccionado una fecha y horario disponible en la aplicación.",
+        "poscondiciones": "La reserva queda registrada en el sistema y se genera un código QR para su validación.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "reserva de mesa o silla",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.974Z",
+        "updatedAt": "2026-11-01T19:28:11.041Z",
+        "id": "6ae792cabf0175908a2ca820"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-03",
+        "nombre": "Compra de paquetes semanales prepagados",
+        "descripcion": "El sistema DEBE permitir a los clientes realizar la compra de paquetes semanales prepagados desde la aplicación móvil.",
+        "prioridad": "Media",
+        "actores": [
+          "Cliente"
+        ],
+        "precondiciones": "El cliente ha seleccionado un paquete semanal disponible.",
+        "poscondiciones": "El paquete prepagado queda asociado a la cuenta del cliente en el sistema.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "compra de paquetes semanales prepagados",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.974Z",
+        "updatedAt": "2026-11-01T19:28:11.046Z",
+        "id": "6ae792cabf0175908a2ca821"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-04",
+        "nombre": "Acumulación de puntos por compras",
+        "descripcion": "El sistema DEBE calcular y acumular puntos en la cuenta del cliente en función de las compras realizadas.",
+        "prioridad": "Media",
+        "actores": [
+          "Cliente"
+        ],
+        "precondiciones": "El cliente completa una transacción de compra exitosa.",
+        "poscondiciones": "El saldo de puntos del cliente se actualiza y se registra en la base de datos.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "puntos por sus compras",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.975Z",
+        "updatedAt": "2026-11-01T19:28:11.050Z",
+        "id": "6ae792cabf0175908a2ca822"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-05",
+        "nombre": "Visualización de pedidos en tiempo real en cocina",
+        "descripcion": "El sistema DEBE mostrar en las pantallas web de cocina los nuevos pedidos en tiempo real utilizando Socket.IO.",
+        "prioridad": "Alta",
+        "actores": [
+          "Personal de Cocina"
+        ],
+        "precondiciones": "El personal de cocina ha iniciado sesión en la pantalla web.",
+        "poscondiciones": "Los pedidos nuevos aparecen reflejados instantáneamente en la interfaz de cocina.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "En las pantallas web, cocina debe ver pedidos en tiempo real",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.975Z",
+        "updatedAt": "2026-11-01T19:28:11.054Z",
+        "id": "6ae792cabf0175908a2ca823"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-06",
+        "nombre": "Marcado de platos agotados por cocina",
+        "descripcion": "El sistema DEBE permitir al personal de cocina marcar los platos agotados para actualizar la disponibilidad en tiempo real.",
+        "prioridad": "Alta",
+        "actores": [
+          "Personal de Cocina"
+        ],
+        "precondiciones": "El personal de cocina identifica que un ingrediente o plato no cuenta con existencias.",
+        "poscondiciones": "El plato es marcado como agotado y se actualiza la disponibilidad para los demás roles.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "marcar platos agotados",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.975Z",
+        "updatedAt": "2026-11-01T19:28:11.057Z",
+        "id": "6ae792cabf0175908a2ca824"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-07",
+        "nombre": "Visualización de mesas asignadas y toma de pedidos por meseros",
+        "descripcion": "El sistema DEBE permitir a los meseros visualizar sus mesas asignadas y registrar nuevos pedidos desde sus pantallas web.",
+        "prioridad": "Alta",
+        "actores": [
+          "Mesero"
+        ],
+        "precondiciones": "El mesero ha iniciado sesión y tiene mesas asignadas en el sistema.",
+        "poscondiciones": "El pedido del mesero es registrado y enviado al sistema para su procesamiento.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "Los meseros deben ver sus mesas asignadas, tomar pedidos",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.975Z",
+        "updatedAt": "2026-11-01T19:28:11.060Z",
+        "id": "6ae792cabf0175908a2ca825"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-08",
+        "nombre": "Validación de reserva mediante código QR",
+        "descripcion": "El sistema DEBE permitir a los meseros escanear el código QR del cliente para validar su reserva.",
+        "prioridad": "Media",
+        "actores": [
+          "Mesero"
+        ],
+        "precondiciones": "El cliente presenta el código QR generado al realizar su reserva.",
+        "poscondiciones": "La reserva es validada y actualizada en el estado del sistema.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "escanear el QR del cliente para validar su reserva",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.062Z",
+        "id": "6ae792cabf0175908a2ca826"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-09",
+        "nombre": "Procesamiento de cobros y validación de planes prepagados",
+        "descripcion": "El sistema DEBE permitir a caja realizar el cobro en efectivo o transferencia, así como validar los planes prepagados de los clientes.",
+        "prioridad": "Alta",
+        "actores": [
+          "Caja"
+        ],
+        "precondiciones": "Existe una cuenta o pedido pendiente de pago asociado a un cliente.",
+        "poscondiciones": "El pago es registrado como completado o el plan prepagado es descontado en el sistema.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "Caja debe cobrar en efectivo o transferencia y validar planes prepagados",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.065Z",
+        "id": "6ae792cabf0175908a2ca827"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RF",
+        "identificador": "RF-10",
+        "nombre": "Consulta de reportes de ventas y gestión de precios",
+        "descripcion": "El sistema DEBE permitir al administrador consultar reportes de ventas y modificar los precios del menú.",
+        "prioridad": "Media",
+        "actores": [
+          "Administrador"
+        ],
+        "precondiciones": "El administrador ha iniciado sesión con credenciales autorizadas.",
+        "poscondiciones": "Los reportes de ventas son visualizados o los precios del menú son actualizados en la base de datos.",
+        "metrica_medible": "",
+        "origen": "explicito",
+        "evidencia": "El administrador debe consultar reportes de ventas y cambiar precios del menú",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.067Z",
+        "id": "6ae792cabf0175908a2ca828"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RNF",
+        "identificador": "RNF-01",
+        "nombre": "Compatibilidad de aplicación móvil",
+        "descripcion": "La aplicación móvil desarrollada DEBE ser compatible con los sistemas operativos iOS y Android utilizando React Native.",
+        "prioridad": "Alta",
+        "actores": [
+          "Usuario"
+        ],
+        "precondiciones": "",
+        "poscondiciones": "",
+        "metrica_medible": "Por confirmar con el usuario",
+        "origen": "explicito",
+        "evidencia": "Utilicen React Native para iOS y Android",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.069Z",
+        "id": "6ae792cabf0175908a2ca829"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RNF",
+        "identificador": "RNF-02",
+        "nombre": "Tecnología de backend",
+        "descripcion": "El backend del sistema DEBE ser desarrollado utilizando NestJS.",
+        "prioridad": "Alta",
+        "actores": [
+          "Usuario"
+        ],
+        "precondiciones": "",
+        "poscondiciones": "",
+        "metrica_medible": "Por confirmar con el usuario",
+        "origen": "explicito",
+        "evidencia": "Utilicen NestJS",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.072Z",
+        "id": "6ae792cabf0175908a2ca82a"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RNF",
+        "identificador": "RNF-03",
+        "nombre": "Motor de base de datos",
+        "descripcion": "El almacenamiento persistente del sistema DEBE utilizar PostgreSQL.",
+        "prioridad": "Alta",
+        "actores": [
+          "Usuario"
+        ],
+        "precondiciones": "",
+        "poscondiciones": "",
+        "metrica_medible": "Por confirmar con el usuario",
+        "origen": "explicito",
+        "evidencia": "PostgreSQL",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.074Z",
+        "id": "6ae792cabf0175908a2ca82b"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RNF",
+        "identificador": "RNF-04",
+        "nombre": "Tecnología para comunicación en tiempo real",
+        "descripcion": "El sistema DEBE utilizar Socket.IO para la transmisión de datos en tiempo real.",
+        "prioridad": "Alta",
+        "actores": [
+          "Usuario"
+        ],
+        "precondiciones": "",
+        "poscondiciones": "",
+        "metrica_medible": "Por confirmar con el usuario",
+        "origen": "explicito",
+        "evidencia": "Socket.IO",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.076Z",
+        "id": "6ae792cabf0175908a2ca82c"
+      },
+      {
+        "proyecto_id": "6ae792bfbf0175908a2ca7e4",
+        "tipo": "RNF",
+        "identificador": "RNF-05",
+        "nombre": "Tecnología para interfaces web",
+        "descripcion": "Las pantallas web del sistema DEBEN ser desarrolladas utilizando React y Tailwind.",
+        "prioridad": "Alta",
+        "actores": [
+          "Usuario"
+        ],
+        "precondiciones": "",
+        "poscondiciones": "",
+        "metrica_medible": "Por confirmar con el usuario",
+        "origen": "explicito",
+        "evidencia": "Las pantallas web deben usar React y Tailwind",
+        "fuentes_origen": [
+          "entrevista-restaurante.txt"
+        ],
+        "requiere_confirmacion": false,
+        "estado_decision": "confirmado",
+        "restricciones_excluidas": [],
+        "aprobado": true,
+        "createdAt": "2026-11-01T19:28:10.976Z",
+        "updatedAt": "2026-11-01T19:28:11.077Z",
+        "id": "6ae792cabf0175908a2ca82d"
+      }
+    ],
+    "contrato": {
+      "version": 1,
+      "project": "GourmetFlow",
+      "model": {
+        "source": "clases_dominio",
+        "entities": 9,
+        "unmapped": [
+          "Platillo",
+          "Pago"
+        ]
+      },
+      "entities": [
+        {
+          "name": "Cliente",
+          "key": "cliente",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "nombre",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "telefono",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "correo",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [],
+          "schema": {
+            "type": "object",
+            "title": "Cliente",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "nombre": {
+                "type": "string"
+              },
+              "telefono": {
+                "type": "string"
+              },
+              "correo": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Menu",
+          "key": "menu",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "version",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [],
+          "schema": {
+            "type": "object",
+            "title": "Menu",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "version": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Platillo",
+          "key": "platillo",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "nombre",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "precio",
+              "type": "number",
+              "nullable": false
+            },
+            {
+              "name": "disponible",
+              "type": "boolean",
+              "nullable": false
+            }
+          ],
+          "references": [
+            {
+              "field": "menu_id",
+              "entity": "Menu",
+              "relation": "composicion",
+              "cardinality": "uno_a_muchos",
+              "label": "contiene"
+            },
+            {
+              "field": "pedido_id",
+              "entity": "Pedido",
+              "relation": "composicion",
+              "cardinality": "uno_a_muchos",
+              "label": "incluye"
+            }
+          ],
+          "schema": {
+            "type": "object",
+            "title": "Platillo",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "nombre": {
+                "type": "string"
+              },
+              "precio": {
+                "type": "number"
+              },
+              "disponible": {
+                "type": "boolean"
+              },
+              "menu_id": {
+                "type": "string",
+                "x-references": "Menu"
+              },
+              "pedido_id": {
+                "type": "string",
+                "x-references": "Pedido"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Reserva",
+          "key": "reserva",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "fechaHora",
+              "type": "string",
+              "format": "date-time",
+              "nullable": false
+            },
+            {
+              "name": "codigoQR",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "estado",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [
+            {
+              "field": "cliente_id",
+              "entity": "Cliente",
+              "relation": "composicion",
+              "cardinality": "uno_a_muchos",
+              "label": "realiza"
+            },
+            {
+              "field": "mesa_id",
+              "entity": "Mesa",
+              "relation": "asociacion",
+              "cardinality": "muchos_a_uno",
+              "label": "asigna"
+            }
+          ],
+          "schema": {
+            "type": "object",
+            "title": "Reserva",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "fechaHora": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "codigoQR": {
+                "type": "string"
+              },
+              "estado": {
+                "type": "string"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              },
+              "mesa_id": {
+                "type": "string",
+                "x-references": "Mesa"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Mesa",
+          "key": "mesa",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "numero",
+              "type": "integer",
+              "nullable": false
+            },
+            {
+              "name": "capacidad",
+              "type": "integer",
+              "nullable": false
+            },
+            {
+              "name": "estado",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [],
+          "schema": {
+            "type": "object",
+            "title": "Mesa",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "numero": {
+                "type": "integer"
+              },
+              "capacidad": {
+                "type": "integer"
+              },
+              "estado": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Pedido",
+          "key": "pedido",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "fechaHora",
+              "type": "string",
+              "format": "date-time",
+              "nullable": false
+            },
+            {
+              "name": "estado",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [
+            {
+              "field": "cliente_id",
+              "entity": "Cliente",
+              "relation": "composicion",
+              "cardinality": "uno_a_muchos",
+              "label": "solicita"
+            },
+            {
+              "field": "mesa_id",
+              "entity": "Mesa",
+              "relation": "asociacion",
+              "cardinality": "uno_a_muchos",
+              "label": "corresponde"
+            },
+            {
+              "field": "pago_id",
+              "entity": "Pago",
+              "relation": "asociacion",
+              "cardinality": "muchos_a_uno",
+              "label": "genera"
+            }
+          ],
+          "schema": {
+            "type": "object",
+            "title": "Pedido",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "fechaHora": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "estado": {
+                "type": "string"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              },
+              "mesa_id": {
+                "type": "string",
+                "x-references": "Mesa"
+              },
+              "pago_id": {
+                "type": "string",
+                "x-references": "Pago"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "PaquetePrepagado",
+          "key": "paqueteprepagado",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "descripcion",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "saldo",
+              "type": "number",
+              "nullable": false
+            }
+          ],
+          "references": [
+            {
+              "field": "cliente_id",
+              "entity": "Cliente",
+              "relation": "composicion",
+              "cardinality": "uno_a_muchos",
+              "label": "adquiere"
+            }
+          ],
+          "schema": {
+            "type": "object",
+            "title": "PaquetePrepagado",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "descripcion": {
+                "type": "string"
+              },
+              "saldo": {
+                "type": "number"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Pago",
+          "key": "pago",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "monto",
+              "type": "number",
+              "nullable": false
+            },
+            {
+              "name": "metodo",
+              "type": "string",
+              "nullable": false
+            }
+          ],
+          "references": [],
+          "schema": {
+            "type": "object",
+            "title": "Pago",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "monto": {
+                "type": "number"
+              },
+              "metodo": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "name": "Puntos",
+          "key": "puntos",
+          "attributes": [
+            {
+              "name": "id",
+              "type": "string",
+              "nullable": false
+            },
+            {
+              "name": "cantidad",
+              "type": "integer",
+              "nullable": false
+            }
+          ],
+          "references": [
+            {
+              "field": "cliente_id",
+              "entity": "Cliente",
+              "relation": "composicion",
+              "cardinality": "uno_a_uno",
+              "label": "posee"
+            }
+          ],
+          "schema": {
+            "type": "object",
+            "title": "Puntos",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "cantidad": {
+                "type": "integer"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        }
+      ],
+      "relations": [
+        {
+          "from": "Cliente",
+          "to": "Reserva",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "0..*",
+          "label": "realiza",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Cliente",
+          "to": "PaquetePrepagado",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "0..*",
+          "label": "adquiere",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Cliente",
+          "to": "Puntos",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "1",
+          "label": "posee",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_uno"
+        },
+        {
+          "from": "Menu",
+          "to": "Platillo",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "1..*",
+          "label": "contiene",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Reserva",
+          "to": "Mesa",
+          "kind": "asociacion",
+          "fromCardinality": "1",
+          "toCardinality": "1",
+          "label": "asigna",
+          "arrow": "--",
+          "cardinalidad": "muchos_a_uno"
+        },
+        {
+          "from": "Cliente",
+          "to": "Pedido",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "0..*",
+          "label": "solicita",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Mesa",
+          "to": "Pedido",
+          "kind": "asociacion",
+          "fromCardinality": "1",
+          "toCardinality": "0..*",
+          "label": "corresponde",
+          "arrow": "--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Pedido",
+          "to": "Platillo",
+          "kind": "composicion",
+          "fromCardinality": "1",
+          "toCardinality": "1..*",
+          "label": "incluye",
+          "arrow": "*--",
+          "cardinalidad": "uno_a_muchos"
+        },
+        {
+          "from": "Pedido",
+          "to": "Pago",
+          "kind": "asociacion",
+          "fromCardinality": "1",
+          "toCardinality": "1",
+          "label": "genera",
+          "arrow": "--",
+          "cardinalidad": "muchos_a_uno"
+        }
+      ],
+      "rules": [],
+      "operations": [
+        {
+          "id": "RF-01",
+          "key": "rf-01",
+          "name": "Visualización de menú digital",
+          "description": "El sistema DEBE mostrar un menú digital en la aplicación móvil para que los clientes consulten los platillos disponibles.",
+          "actors": [
+            "Cliente"
+          ],
+          "collectionPath": "/api/operations/rf-01",
+          "itemPath": "/api/operations/rf-01/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "menu",
+          "relatedEntities": [
+            "cliente",
+            "platillo"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Menu",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "version": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-02",
+          "key": "rf-02",
+          "name": "Reserva de mesa o silla",
+          "description": "El sistema DEBE permitir a los clientes realizar la reserva de una mesa o silla a través de la aplicación móvil.",
+          "actors": [
+            "Cliente"
+          ],
+          "collectionPath": "/api/operations/rf-02",
+          "itemPath": "/api/operations/rf-02/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "reserva",
+          "relatedEntities": [
+            "mesa",
+            "cliente"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Reserva",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "fechaHora": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "codigoQR": {
+                "type": "string"
+              },
+              "estado": {
+                "type": "string"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              },
+              "mesa_id": {
+                "type": "string",
+                "x-references": "Mesa"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-03",
+          "key": "rf-03",
+          "name": "Compra de paquetes semanales prepagados",
+          "description": "El sistema DEBE permitir a los clientes realizar la compra de paquetes semanales prepagados desde la aplicación móvil.",
+          "actors": [
+            "Cliente"
+          ],
+          "collectionPath": "/api/operations/rf-03",
+          "itemPath": "/api/operations/rf-03/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "paqueteprepagado",
+          "relatedEntities": [
+            "cliente"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "PaquetePrepagado",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "descripcion": {
+                "type": "string"
+              },
+              "saldo": {
+                "type": "number"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-04",
+          "key": "rf-04",
+          "name": "Acumulación de puntos por compras",
+          "description": "El sistema DEBE calcular y acumular puntos en la cuenta del cliente en función de las compras realizadas.",
+          "actors": [
+            "Cliente"
+          ],
+          "collectionPath": "/api/operations/rf-04",
+          "itemPath": "/api/operations/rf-04/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "puntos",
+          "relatedEntities": [
+            "cliente"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Puntos",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "cantidad": {
+                "type": "integer"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-05",
+          "key": "rf-05",
+          "name": "Visualización de pedidos en tiempo real en cocina",
+          "description": "El sistema DEBE mostrar en las pantallas web de cocina los nuevos pedidos en tiempo real utilizando Socket.IO.",
+          "actors": [
+            "Personal de Cocina"
+          ],
+          "collectionPath": "/api/operations/rf-05",
+          "itemPath": "/api/operations/rf-05/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "pedido",
+          "relatedEntities": [],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Pedido",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "fechaHora": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "estado": {
+                "type": "string"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              },
+              "mesa_id": {
+                "type": "string",
+                "x-references": "Mesa"
+              },
+              "pago_id": {
+                "type": "string",
+                "x-references": "Pago"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-06",
+          "key": "rf-06",
+          "name": "Marcado de platos agotados por cocina",
+          "description": "El sistema DEBE permitir al personal de cocina marcar los platos agotados para actualizar la disponibilidad en tiempo real.",
+          "actors": [
+            "Personal de Cocina"
+          ],
+          "collectionPath": "/api/operations/rf-06",
+          "itemPath": "/api/operations/rf-06/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": null,
+          "relatedEntities": [],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-07",
+          "key": "rf-07",
+          "name": "Visualización de mesas asignadas y toma de pedidos por meseros",
+          "description": "El sistema DEBE permitir a los meseros visualizar sus mesas asignadas y registrar nuevos pedidos desde sus pantallas web.",
+          "actors": [
+            "Mesero"
+          ],
+          "collectionPath": "/api/operations/rf-07",
+          "itemPath": "/api/operations/rf-07/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "mesa",
+          "relatedEntities": [
+            "pedido"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Mesa",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "numero": {
+                "type": "integer"
+              },
+              "capacidad": {
+                "type": "integer"
+              },
+              "estado": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-08",
+          "key": "rf-08",
+          "name": "Validación de reserva mediante código QR",
+          "description": "El sistema DEBE permitir a los meseros escanear el código QR del cliente para validar su reserva.",
+          "actors": [
+            "Mesero"
+          ],
+          "collectionPath": "/api/operations/rf-08",
+          "itemPath": "/api/operations/rf-08/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "reserva",
+          "relatedEntities": [
+            "cliente"
+          ],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Reserva",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "fechaHora": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "codigoQR": {
+                "type": "string"
+              },
+              "estado": {
+                "type": "string"
+              },
+              "cliente_id": {
+                "type": "string",
+                "x-references": "Cliente"
+              },
+              "mesa_id": {
+                "type": "string",
+                "x-references": "Mesa"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-09",
+          "key": "rf-09",
+          "name": "Procesamiento de cobros y validación de planes prepagados",
+          "description": "El sistema DEBE permitir a caja realizar el cobro en efectivo o transferencia, así como validar los planes prepagados de los clientes.",
+          "actors": [
+            "Caja"
+          ],
+          "collectionPath": "/api/operations/rf-09",
+          "itemPath": "/api/operations/rf-09/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "cliente",
+          "relatedEntities": [],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Cliente",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "nombre": {
+                "type": "string"
+              },
+              "telefono": {
+                "type": "string"
+              },
+              "correo": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        },
+        {
+          "id": "RF-10",
+          "key": "rf-10",
+          "name": "Consulta de reportes de ventas y gestión de precios",
+          "description": "El sistema DEBE permitir al administrador consultar reportes de ventas y modificar los precios del menú.",
+          "actors": [
+            "Administrador"
+          ],
+          "collectionPath": "/api/operations/rf-10",
+          "itemPath": "/api/operations/rf-10/:id",
+          "methods": [
+            "GET",
+            "POST",
+            "PATCH",
+            "DELETE"
+          ],
+          "entity": "menu",
+          "relatedEntities": [],
+          "rules": [],
+          "schema": {
+            "type": "object",
+            "title": "Menu",
+            "properties": {
+              "id": {
+                "type": "string",
+                "readOnly": true
+              },
+              "version": {
+                "type": "string"
+              }
+            },
+            "required": [],
+            "additionalProperties": true
+          }
+        }
+      ],
+      "views": [],
+      "warnings": [
+        "RF-06 no se asoció a ninguna entidad del modelo de dominio; usa un esquema genérico."
+      ],
+      "health": "/health",
+      "auth": {
+        "habilitada": true,
+        "expiracion": "8h",
+        "roles": {
+          "cliente": {
+            "nombre": "Cliente",
+            "autoregistro": false
+          },
+          "personal-de-cocina": {
+            "nombre": "Personal de Cocina",
+            "autoregistro": false
+          },
+          "mesero": {
+            "nombre": "Mesero",
+            "autoregistro": false
+          },
+          "caja": {
+            "nombre": "Caja",
+            "autoregistro": false
+          }
+        },
+        "operaciones": {
+          "rf-01": {
+            "cliente": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-02": {
+            "cliente": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-03": {
+            "cliente": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-04": {
+            "cliente": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-05": {
+            "personal-de-cocina": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-06": {
+            "personal-de-cocina": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-07": {
+            "mesero": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-08": {
+            "mesero": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-09": {
+            "caja": [
+              "GET",
+              "POST",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "rf-10": {}
+        }
+      },
+      "associations": [],
+      "database": "postgres",
+      "stack": {
+        "backend": "nest",
+        "lenguaje": "node",
+        "version_framework": "12.3.2",
+        "node": "^22.12.0 || >=24.0.0"
+      },
+      "mode": "entity_crud_v1",
+      "docs": {
+        "openapi": "/api/openapi.json",
+        "archivo": "backend/openapi.json"
+      },
+      "storage": {
+        "layout": "table_per_entity",
+        "operations": {
+          "rf-01": "menu",
+          "rf-02": "reserva",
+          "rf-03": "paquete_prepagado",
+          "rf-04": "puntos",
+          "rf-05": "pedido",
+          "rf-06": "icase_records",
+          "rf-07": "mesa",
+          "rf-08": "reserva",
+          "rf-09": "cliente",
+          "rf-10": "menu"
+        },
+        "tables": [
+          {
+            "name": "cliente",
+            "entity": "Cliente",
+            "columns": [
+              "nombre",
+              "telefono",
+              "correo"
+            ],
+            "references": []
+          },
+          {
+            "name": "menu",
+            "entity": "Menu",
+            "columns": [
+              "version"
+            ],
+            "references": []
+          },
+          {
+            "name": "platillo",
+            "entity": "Platillo",
+            "columns": [
+              "nombre",
+              "precio",
+              "disponible",
+              "menu_id",
+              "pedido_id"
+            ],
+            "references": [
+              {
+                "column": "menu_id",
+                "table": "menu"
+              },
+              {
+                "column": "pedido_id",
+                "table": "pedido"
+              }
+            ]
+          },
+          {
+            "name": "reserva",
+            "entity": "Reserva",
+            "columns": [
+              "fecha_hora",
+              "codigo_qr",
+              "estado",
+              "cliente_id",
+              "mesa_id"
+            ],
+            "references": [
+              {
+                "column": "cliente_id",
+                "table": "cliente"
+              },
+              {
+                "column": "mesa_id",
+                "table": "mesa"
+              }
+            ]
+          },
+          {
+            "name": "mesa",
+            "entity": "Mesa",
+            "columns": [
+              "numero",
+              "capacidad",
+              "estado"
+            ],
+            "references": []
+          },
+          {
+            "name": "pedido",
+            "entity": "Pedido",
+            "columns": [
+              "fecha_hora",
+              "estado",
+              "cliente_id",
+              "mesa_id",
+              "pago_id"
+            ],
+            "references": [
+              {
+                "column": "cliente_id",
+                "table": "cliente"
+              },
+              {
+                "column": "mesa_id",
+                "table": "mesa"
+              }
+            ]
+          },
+          {
+            "name": "paquete_prepagado",
+            "entity": "PaquetePrepagado",
+            "columns": [
+              "descripcion",
+              "saldo",
+              "cliente_id"
+            ],
+            "references": [
+              {
+                "column": "cliente_id",
+                "table": "cliente"
+              }
+            ]
+          },
+          {
+            "name": "pago",
+            "entity": "Pago",
+            "columns": [
+              "monto",
+              "metodo"
+            ],
+            "references": []
+          },
+          {
+            "name": "puntos",
+            "entity": "Puntos",
+            "columns": [
+              "cantidad",
+              "cliente_id"
+            ],
+            "references": [
+              {
+                "column": "cliente_id",
+                "table": "cliente"
+              }
+            ]
+          },
+          {
+            "name": "icase_records",
+            "entity": null,
+            "columns": [],
+            "references": []
+          }
+        ],
+        "associations": [],
+        "migrations": [
+          "0001_init",
+          "0002_auth",
+          "0003_seed"
+        ]
+      },
+      "requisitos": [
+        {
+          "id": "RF-01",
+          "nombre": "Visualización de menú digital"
+        },
+        {
+          "id": "RF-02",
+          "nombre": "Reserva de mesa o silla"
+        },
+        {
+          "id": "RF-03",
+          "nombre": "Compra de paquetes semanales prepagados"
+        },
+        {
+          "id": "RF-04",
+          "nombre": "Acumulación de puntos por compras"
+        },
+        {
+          "id": "RF-05",
+          "nombre": "Visualización de pedidos en tiempo real en cocina"
+        },
+        {
+          "id": "RF-06",
+          "nombre": "Marcado de platos agotados por cocina"
+        },
+        {
+          "id": "RF-07",
+          "nombre": "Visualización de mesas asignadas y toma de pedidos por meseros"
+        },
+        {
+          "id": "RF-08",
+          "nombre": "Validación de reserva mediante código QR"
+        },
+        {
+          "id": "RF-09",
+          "nombre": "Procesamiento de cobros y validación de planes prepagados"
+        },
+        {
+          "id": "RF-10",
+          "nombre": "Consulta de reportes de ventas y gestión de precios"
+        }
+      ],
+      "endpoints": [
+        "/api/operations/rf-01",
+        "/api/operations/rf-01/:id",
+        "/api/operations/rf-02",
+        "/api/operations/rf-02/:id",
+        "/api/operations/rf-03",
+        "/api/operations/rf-03/:id",
+        "/api/operations/rf-04",
+        "/api/operations/rf-04/:id",
+        "/api/operations/rf-05",
+        "/api/operations/rf-05/:id",
+        "/api/operations/rf-06",
+        "/api/operations/rf-06/:id",
+        "/api/operations/rf-07",
+        "/api/operations/rf-07/:id",
+        "/api/operations/rf-08",
+        "/api/operations/rf-08/:id",
+        "/api/operations/rf-09",
+        "/api/operations/rf-09/:id",
+        "/api/operations/rf-10",
+        "/api/operations/rf-10/:id"
+      ]
+    },
+    "declaracion": {
+      "modo_entrega": "parcial",
+      "aceptar_pendientes": true,
+      "requisitos": []
+    },
+    "stack": {
+      "backend": "Node.js 22.12+ + NestJS 12.3.2",
+      "version_backend": "12.3.2",
+      "frontend": "React + Vite para web; React Native para móvil",
+      "base_datos": "PostgreSQL",
+      "gestor_paquetes": "npm",
+      "plataformas": [
+        "web",
+        "móvil"
+      ],
+      "tiempo_real": "Socket.IO",
+      "estilos": "Tailwind CSS",
+      "observaciones_tecnicas": "Versiones exactas y librerías complementarias deberán fijarse antes de generar dependencias."
+    }
+  },
+  "catalogo_capacidades": [
+    {
+      "id": "tiempo_real",
+      "version": 1,
+      "etiqueta": "Tiempo real",
+      "estado": "no_soportado",
+      "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+      "dependencias": [
+        "datos",
+        "control_acceso"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "archivos",
+      "version": 1,
+      "etiqueta": "Archivos e imágenes",
+      "estado": "no_soportado",
+      "alternativa": "No hay subida ni descarga de archivos; el registro solo guarda campos de texto, números y fechas.",
+      "dependencias": [
+        "datos",
+        "control_acceso"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "reportes",
+      "version": 1,
+      "etiqueta": "Reportes, gráficos y exportación",
+      "estado": "no_soportado",
+      "alternativa": "Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan.",
+      "dependencias": [
+        "datos",
+        "control_acceso"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "calculos",
+      "version": 1,
+      "etiqueta": "Cálculos y procesos de negocio",
+      "estado": "no_soportado",
+      "alternativa": "Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan.",
+      "dependencias": [
+        "datos",
+        "reglas_negocio"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "notificaciones",
+      "version": 1,
+      "etiqueta": "Correo, SMS y notificaciones",
+      "estado": "no_soportado",
+      "alternativa": "La aplicación no envía mensajes; el correo solo existe como un dato más del registro.",
+      "dependencias": [
+        "trabajos_persistentes"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "pagos",
+      "version": 1,
+      "etiqueta": "Pagos en línea y facturación",
+      "estado": "no_soportado",
+      "alternativa": "Se puede registrar un pago como dato, pero no se cobra ni se emite factura electrónica.",
+      "dependencias": [
+        "integraciones",
+        "trabajos_persistentes",
+        "control_acceso"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "ubicacion",
+      "version": 1,
+      "etiqueta": "Mapas y geolocalización",
+      "estado": "no_soportado",
+      "alternativa": "La dirección o las coordenadas se guardan como texto o número; no hay mapa ni cálculo de rutas.",
+      "dependencias": [
+        "datos"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "integraciones",
+      "version": 1,
+      "etiqueta": "Integraciones y acceso externo",
+      "estado": "no_soportado",
+      "alternativa": "La aplicación funciona sola, con su propia base de datos y usuarios; no se conecta a otros sistemas.",
+      "dependencias": [
+        "control_acceso"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "dispositivos",
+      "version": 1,
+      "etiqueta": "Cámara, códigos QR y biometría",
+      "estado": "no_soportado",
+      "alternativa": "No se accede al hardware del dispositivo; los códigos se escriben como texto.",
+      "dependencias": [
+        "interfaz"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    },
+    {
+      "id": "cuentas",
+      "version": 1,
+      "etiqueta": "Recuperación de contraseña y verificación de cuenta",
+      "estado": "no_soportado",
+      "alternativa": "Las cuentas las administra un usuario con permiso; no hay envío de enlaces de recuperación ni segundo factor.",
+      "dependencias": [
+        "autenticacion",
+        "notificaciones"
+      ],
+      "stacks_implementados": [],
+      "configuracion": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "archivos_generados": [],
+      "pruebas_requeridas": [
+        "unidad",
+        "integracion",
+        "interfaz"
+      ]
+    }
+  ],
+  "proyecto": "GourmetFlow",
+  "deteccion": "Los niveles históricos describen CRUD generado, no cumplimiento funcional. Las palabras clave son sugerencias; confirma el alcance por RF. La ejecución y la cobertura se evalúan por separado.",
+  "resumen": {
+    "total": 10,
+    "completo": 5,
+    "solo_datos": 4,
+    "no_soportado": 1
+  },
+  "modulos": {
+    "modo": "automatico",
+    "incluidos": [
+      {
+        "id": "datos",
+        "etiqueta": "Datos por entidad",
+        "categoria": "datos",
+        "descripcion": "Tabla o colección por entidad, migraciones, claves foráneas y validación de tipos.",
+        "activo": true,
+        "motivo": "Va siempre."
+      },
+      {
+        "id": "openapi",
+        "etiqueta": "Documentación OpenAPI",
+        "categoria": "api",
+        "descripcion": "Documento OpenAPI 3.1 derivado del contrato y endpoint /api/openapi.json.",
+        "activo": true,
+        "motivo": "Va siempre."
+      },
+      {
+        "id": "informe",
+        "etiqueta": "Informe de generación",
+        "categoria": "documentacion",
+        "descripcion": "Qué se generó de cada requisito y qué no.",
+        "activo": true,
+        "motivo": "Va siempre."
+      },
+      {
+        "id": "autenticacion",
+        "etiqueta": "Autenticación y roles",
+        "categoria": "seguridad",
+        "descripcion": "Sesión con JWT, roles, permisos por operación y gestión de usuarios.",
+        "activo": true,
+        "motivo": "Aprobada en la etapa «Autenticación y roles»."
+      },
+      {
+        "id": "app_movil",
+        "etiqueta": "App móvil (Expo)",
+        "categoria": "interfaz",
+        "descripcion": "Paquete Expo con las mismas operaciones; no es un APK ni un IPA firmado.",
+        "activo": true,
+        "motivo": "La plataforma móvil está incluida en el alcance."
+      }
+    ],
+    "opcionales": [
+      {
+        "id": "formularios_tipados",
+        "etiqueta": "Formularios y tablas por campo",
+        "activo": true
+      },
+      {
+        "id": "paginacion_busqueda",
+        "etiqueta": "Paginación, filtros y búsqueda",
+        "activo": true
+      },
+      {
+        "id": "datos_iniciales",
+        "etiqueta": "Datos iniciales (seed deterministas)",
+        "activo": true
+      }
+    ]
+  },
+  "requisitos": [
+    {
+      "id": "RF-01",
+      "nombre": "Visualización de menú digital",
+      "nivel": "completo",
+      "entidad": "Menu",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Menu» (alta, consulta, edición y baja)."
+      ],
+      "capacidades": []
+    },
+    {
+      "id": "RF-02",
+      "nombre": "Reserva de mesa o silla",
+      "nivel": "completo",
+      "entidad": "Reserva",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Reserva» (alta, consulta, edición y baja)."
+      ],
+      "capacidades": []
+    },
+    {
+      "id": "RF-03",
+      "nombre": "Compra de paquetes semanales prepagados",
+      "nivel": "completo",
+      "entidad": "PaquetePrepagado",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «PaquetePrepagado» (alta, consulta, edición y baja)."
+      ],
+      "capacidades": []
+    },
+    {
+      "id": "RF-04",
+      "nombre": "Acumulación de puntos por compras",
+      "nivel": "solo_datos",
+      "entidad": "Puntos",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Puntos» (alta, consulta, edición y baja).",
+        "No se genera: cálculos y procesos de negocio. Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan."
+      ],
+      "capacidades": [
+        {
+          "id": "calculos",
+          "etiqueta": "Cálculos y procesos de negocio",
+          "evidencia": "descripción: «calcular»",
+          "alternativa": "Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan."
+        }
+      ]
+    },
+    {
+      "id": "RF-05",
+      "nombre": "Visualización de pedidos en tiempo real en cocina",
+      "nivel": "solo_datos",
+      "entidad": "Pedido",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Pedido» (alta, consulta, edición y baja).",
+        "No se genera: tiempo real. Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos."
+      ],
+      "capacidades": [
+        {
+          "id": "tiempo_real",
+          "etiqueta": "Tiempo real",
+          "evidencia": "nombre: «tiempo real»",
+          "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos."
+        }
+      ]
+    },
+    {
+      "id": "RF-06",
+      "nombre": "Marcado de platos agotados por cocina",
+      "nivel": "no_soportado",
+      "entidad": null,
+      "reglas": 0,
+      "motivos": [
+        "No se asoció a ninguna entidad del modelo de dominio: guarda registros con campos libres, sin validación de tipos.",
+        "No se genera: tiempo real. Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos."
+      ],
+      "capacidades": [
+        {
+          "id": "tiempo_real",
+          "etiqueta": "Tiempo real",
+          "evidencia": "descripción: «tiempo real»",
+          "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos."
+        }
+      ]
+    },
+    {
+      "id": "RF-07",
+      "nombre": "Visualización de mesas asignadas y toma de pedidos por meseros",
+      "nivel": "completo",
+      "entidad": "Mesa",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Mesa» (alta, consulta, edición y baja)."
+      ],
+      "capacidades": []
+    },
+    {
+      "id": "RF-08",
+      "nombre": "Validación de reserva mediante código QR",
+      "nivel": "solo_datos",
+      "entidad": "Reserva",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Reserva» (alta, consulta, edición y baja).",
+        "No se genera: cámara, códigos qr y biometría. No se accede al hardware del dispositivo; los códigos se escriben como texto."
+      ],
+      "capacidades": [
+        {
+          "id": "dispositivos",
+          "etiqueta": "Cámara, códigos QR y biometría",
+          "evidencia": "nombre: «código QR»",
+          "alternativa": "No se accede al hardware del dispositivo; los códigos se escriben como texto."
+        }
+      ]
+    },
+    {
+      "id": "RF-09",
+      "nombre": "Procesamiento de cobros y validación de planes prepagados",
+      "nivel": "completo",
+      "entidad": "Cliente",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Cliente» (alta, consulta, edición y baja)."
+      ],
+      "capacidades": []
+    },
+    {
+      "id": "RF-10",
+      "nombre": "Consulta de reportes de ventas y gestión de precios",
+      "nivel": "solo_datos",
+      "entidad": "Menu",
+      "reglas": 0,
+      "motivos": [
+        "Se gestionan los datos de «Menu» (alta, consulta, edición y baja).",
+        "No se genera: reportes, gráficos y exportación. Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan."
+      ],
+      "capacidades": [
+        {
+          "id": "reportes",
+          "etiqueta": "Reportes, gráficos y exportación",
+          "evidencia": "nombre: «reportes»",
+          "alternativa": "Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan."
+        }
+      ]
+    }
+  ],
+  "capacidades_no_generadas": [
+    {
+      "id": "calculos",
+      "etiqueta": "Cálculos y procesos de negocio",
+      "alternativa": "Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan.",
+      "requisitos": [
+        "RF-04"
+      ],
+      "stack": null
+    },
+    {
+      "id": "tiempo_real",
+      "etiqueta": "Tiempo real",
+      "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+      "requisitos": [
+        "RF-05",
+        "RF-06"
+      ],
+      "stack": "Socket.IO"
+    },
+    {
+      "id": "dispositivos",
+      "etiqueta": "Cámara, códigos QR y biometría",
+      "alternativa": "No se accede al hardware del dispositivo; los códigos se escriben como texto.",
+      "requisitos": [
+        "RF-08"
+      ],
+      "stack": null
+    },
+    {
+      "id": "reportes",
+      "etiqueta": "Reportes, gráficos y exportación",
+      "alternativa": "Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan.",
+      "requisitos": [
+        "RF-10"
+      ],
+      "stack": null
+    }
+  ],
+  "entidades_sin_requisito": [
+    "Platillo",
+    "Pago"
+  ],
+  "notas": [
+    "La app móvil es un paquete Expo (React Native) sin firmar: no es un APK ni un IPA instalable y solo se verificó su empaquetado para Android.",
+    "5 requisitos no funcionales: no se convierten en código ni se miden (rendimiento, disponibilidad, seguridad); como mucho influyen en la infraestructura propuesta."
+  ],
+  "limites_generales": [
+    "La interfaz web muestra un formulario por campo y una tabla derivados del esquema de cada entidad, pero no reproduce el diseño de los mockups; una operación sin campos declarados se edita como JSON. La app móvil sigue usando JSON.",
+    "Las listas en la API y en la interfaz soportan paginación (parámetros page y limit), búsqueda textual (parámetro search) y filtros por campo.",
+    "Se generan datos iniciales (seed) deterministas derivados del esquema del modelo de dominio para pruebas de arranque.",
+    "Los permisos son por rol y operación; no existe «propiedad» de registros (un usuario no queda limitado a los suyos).",
+    "Si se vuelve a generar el código se pierden las ediciones manuales hechas en los archivos."
+  ]
+}

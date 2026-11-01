@@ -1,0 +1,4 @@
+import React from 'react';
+import OperationScreen from '../OperationScreen';
+const referenceText="Validación de Reserva - GourmetFlow GF GourmetFlow Validación de Reserva Sistema en línea Vista de Escaneo QR - Validación de Reserva Mesero: Carlos Pérez Escanear Código QR Coloque el código QR frente al lector o ingréselo manualmente Código QR / ID Reserva Validar Reserva Reservas Recientes ID Cliente Fecha / Hora Mesa Estado Acción RES-001 Ana Gómez 14:30 - Hoy Mesa 4 Pendiente Validar RES-002 Luis Torres 15:00 - Hoy Mesa 2 Validada Completado RES-003 Sofía Ruiz 15:15 - Hoy Mesa 6 Pendiente Validar";
+export default function PantallaDeValidacionDeReserva(){return <OperationScreen title="Pantalla de Validación de Reserva" capabilities={["rf-02","rf-05","rf-07","rf-08","rf-09"]} referenceText={referenceText}/>;}

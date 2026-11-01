@@ -1,0 +1,8 @@
+{
+  "proyecto": "GourmetFlow",
+  "proveedor": "GitHub Actions",
+  "pruebas_version": 2,
+  "infraestructura_version": 2,
+  "movil_incluido": true,
+  "despliegue_automatico": false
+}

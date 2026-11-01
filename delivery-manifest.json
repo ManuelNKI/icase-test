@@ -1,0 +1,745 @@
+{
+  "alcance": {
+    "version": 1,
+    "modo_entrega": "parcial",
+    "aceptar_pendientes": true,
+    "estado": "pendiente",
+    "semantica": "No certificada: se evalúa el alcance de los generadores, no todas las reglas del negocio ni los RNF.",
+    "ejecucion": "Requiere verificación técnica independiente para la huella actual de archivos.",
+    "exportable": true,
+    "bloqueos": [
+      "RF-01: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-02: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-03: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-04: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-04: Capacidades sin implementación: calculos.",
+      "RF-05: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-05: Capacidades sin implementación: tiempo_real.",
+      "RF-06: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-06: No hay operación asociada por identificador a una entidad tipada.",
+      "RF-06: Capacidades sin implementación: tiempo_real.",
+      "RF-07: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-08: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-08: Capacidades sin implementación: dispositivos.",
+      "RF-09: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-10: Falta confirmar el alcance de la versión actual del RF.",
+      "RF-10: Capacidades sin implementación: reportes.",
+      "El stack solicita tiempo real y todavía no existe ese módulo."
+    ],
+    "requisitos": [
+      {
+        "requisito": "RF-01",
+        "operacion": "rf-01",
+        "entidad": "menu",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "c03d320b071abfb0bcd6c50dc32e1f5216002f232c9383d6b679b824ecba90ee",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-02",
+        "operacion": "rf-02",
+        "entidad": "reserva",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "cd5a101e33f659052391bfc169ab6edafa17ed8ea25c12434ce2dcfd67d81eaf",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-03",
+        "operacion": "rf-03",
+        "entidad": "paqueteprepagado",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "fa7020e3e8dc062271e0cfa772d39de084823b43b23ed0ec1637f0b6f0fd6398",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-04",
+        "operacion": "rf-04",
+        "entidad": "puntos",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "calculos"
+        ],
+        "sugerencias": [
+          {
+            "id": "calculos",
+            "etiqueta": "Cálculos y procesos de negocio",
+            "evidencia": "descripción: «calcular»",
+            "alternativa": "Los valores se escriben a mano; las reglas solo validan (requerido, único, rango, longitud, formato, comparación, estados, inmutable, valor por defecto) y no calculan.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "7884f3f6a2ad90d43048899f8b0b6b670c0218226800ed0a437327fe3a329a82",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: calculos."
+        ]
+      },
+      {
+        "requisito": "RF-05",
+        "operacion": "rf-05",
+        "entidad": "pedido",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "tiempo_real"
+        ],
+        "sugerencias": [
+          {
+            "id": "tiempo_real",
+            "etiqueta": "Tiempo real",
+            "evidencia": "nombre: «tiempo real»",
+            "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "e1ced7179dff43c3f1f38c84c530f6c5390dab775eb8b32b2f3dc66af3125b24",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: tiempo_real."
+        ]
+      },
+      {
+        "requisito": "RF-06",
+        "operacion": "rf-06",
+        "entidad": null,
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "tiempo_real"
+        ],
+        "sugerencias": [
+          {
+            "id": "tiempo_real",
+            "etiqueta": "Tiempo real",
+            "evidencia": "descripción: «tiempo real»",
+            "alternativa": "Los datos se consultan al abrir o recargar la pantalla; no hay actualización automática ni canal de eventos.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "1dd3b260d77c8b9515bc24cfd33ac7672b1e7e0e3b3d68c960c4e41012b53f9c",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "No hay operación asociada por identificador a una entidad tipada.",
+          "Capacidades sin implementación: tiempo_real."
+        ]
+      },
+      {
+        "requisito": "RF-07",
+        "operacion": "rf-07",
+        "entidad": "mesa",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "31756aa844f7d652197f8d40d246d6771614dd80a4c484b30338cd88f8e1f581",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-08",
+        "operacion": "rf-08",
+        "entidad": "reserva",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "dispositivos"
+        ],
+        "sugerencias": [
+          {
+            "id": "dispositivos",
+            "etiqueta": "Cámara, códigos QR y biometría",
+            "evidencia": "nombre: «código QR»",
+            "alternativa": "No se accede al hardware del dispositivo; los códigos se escriben como texto.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "ff3c1511f444f1ebfa6fe50bfcbb2220fec1fed0ec799081a3116fb37b244a2d",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: dispositivos."
+        ]
+      },
+      {
+        "requisito": "RF-09",
+        "operacion": "rf-09",
+        "entidad": "cliente",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [],
+        "sugerencias": [],
+        "huella_requisito": "52306ac5fb47992a9f87d3fff3e78370d836ea308280531bd7e27ebc1295419b",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF."
+        ]
+      },
+      {
+        "requisito": "RF-10",
+        "operacion": "rf-10",
+        "entidad": "menu",
+        "tipo": null,
+        "confirmado": false,
+        "capacidades": [
+          "reportes"
+        ],
+        "sugerencias": [
+          {
+            "id": "reportes",
+            "etiqueta": "Reportes, gráficos y exportación",
+            "evidencia": "nombre: «reportes»",
+            "alternativa": "Las listas muestran los registros tal cual; no se agregan, totalizan ni exportan.",
+            "origen": "sugerencia",
+            "requiere_confirmacion": true
+          }
+        ],
+        "huella_requisito": "839896163230a048a1987af45031170c14024cdc931b608f7e9260682b545d38",
+        "estado": "pendiente",
+        "motivos": [
+          "Falta confirmar el alcance de la versión actual del RF.",
+          "Capacidades sin implementación: reportes."
+        ]
+      }
+    ]
+  },
+  "proyecto": "GourmetFlow",
+  "generado_en": "2026-11-01T20:18:44.657Z",
+  "artefactos": [
+    {
+      "tipo": "codigo_backend",
+      "version": 2,
+      "huella_entrada": "82143bbbe2dac70d60cd676bb1e57f7750b5c783c8690fbe83b9ac46990a9b19",
+      "verificacion": {
+        "estado": "apta",
+        "nivel": "ejecucion_aislada",
+        "huella": "fa5c3ab5f28e33a8ccc7e3852f459b234782e9f8e2bdd84cf6b86b01741d4747",
+        "pruebas": [
+          {
+            "paso": "Compilación backend en Docker",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Arranque de base de datos y backend con health checks",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Prueba CRUD y N:M HTTP derivada del contrato",
+            "resultado": "correcto"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "codigo_frontend",
+      "version": 2,
+      "huella_entrada": "48d302736244aa106ecf7b03edc948d5ce0ecd80beb2f92728d89e3201973cff",
+      "verificacion": {
+        "estado": "apta",
+        "nivel": "ejecucion_aislada",
+        "huella": "db10ea09be5b55f00f02c6d055584e24c032954096069a7bce8ad21a30b17193",
+        "pruebas": [
+          {
+            "paso": "Compilación React/Vite en Docker",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Bundle Android Expo en Docker",
+            "resultado": "correcto"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pruebas",
+      "version": 2,
+      "huella_entrada": "52d11a30315ed0af4deee83ac3987aa6b838e030528d6b26d141f99fd74906ed",
+      "verificacion": {
+        "estado": "apta",
+        "nivel": "ejecucion_aislada",
+        "huella": "5dca33262e372526abc4cb2ed13c777ead9798a58fe484220c3d3a8ab2a6c834",
+        "pruebas": [
+          {
+            "paso": "Compilación de backend, frontend y pruebas en Docker",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Bundle Android Expo en Docker",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Arranque de base de datos, backend y frontend con health checks",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Prueba CRUD y N:M HTTP derivada del contrato",
+            "resultado": "correcto"
+          },
+          {
+            "paso": "Pruebas de integración del paquete",
+            "resultado": "correcto"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "infraestructura",
+      "version": 2,
+      "huella_entrada": "521f3bf7952df7a4eca6436523424b10f25001bbc38fe3af9fb83781ccd862f7",
+      "verificacion": {
+        "estado": "apta_estructuralmente",
+        "nivel": "estatico",
+        "huella": "70bdd661ca28793c158dc69af0680518421506fb55b57c41eb3d92be84b2845f",
+        "pruebas": []
+      }
+    },
+    {
+      "tipo": "pipeline_ci_cd",
+      "version": 2,
+      "huella_entrada": "af8c62830910e2fdf84e652d40dbe0819f2df43433039fca901d91699fceb63e",
+      "verificacion": {
+        "estado": "apta_estructuralmente",
+        "nivel": "estatico",
+        "huella": "ccd9767303d389681913c7441844d690470bc3b11de7a50b1e87df779a95d16f",
+        "pruebas": []
+      }
+    }
+  ],
+  "archivos": [
+    {
+      "ruta": "backend/package.json",
+      "huella": "ec27b7bf13c884dd441dfada849adf57cd8037c6b9b87dc12e5643021c9b2217"
+    },
+    {
+      "ruta": "backend/tsconfig.json",
+      "huella": "802ed103fbf525d40da3d3ae3eaee8730a94d7be8b43da29e933b919ee6ad540"
+    },
+    {
+      "ruta": "backend/.env.example",
+      "huella": "b8cb99e75e44df9d82277d267c797a0a51a696952a22c8ce5881729831a13521"
+    },
+    {
+      "ruta": "backend/icase.manifest.json",
+      "huella": "40562b1268d3d9e50f94b1a65b4be784805d4ec7eff5d26916dff0ea2fee7090"
+    },
+    {
+      "ruta": "backend/src/main.ts",
+      "huella": "d209677c6fc57509bee21b4db3ec5e772741ecccad74c3364ee1a0500b8f5b77"
+    },
+    {
+      "ruta": "backend/src/store-exception.filter.ts",
+      "huella": "01b56ff4b5c484bbcbdd863d802b80bfba1691c8f991775221af8d40ee103518"
+    },
+    {
+      "ruta": "backend/src/app.module.ts",
+      "huella": "dd25faa58ca6655bce9cd5136c14694db03cea5cfe593beec03c776ef42d3194"
+    },
+    {
+      "ruta": "backend/src/app.controller.ts",
+      "huella": "61cb734695d450ddba5d0e3edd9827231d385a93be0d5459c81896d42b3936c9"
+    },
+    {
+      "ruta": "backend/src/record.store.ts",
+      "huella": "f1e42fede4da7dc3f11d2718022d8388a8c10e1b75a4e356108a3591f6500688"
+    },
+    {
+      "ruta": "backend/src/record.store.base.js",
+      "huella": "062fae1444c292ae9bbd44d641466c31c79aff2ee91b4d761855d3df5b2a3ab6"
+    },
+    {
+      "ruta": "backend/src/data/associations.js",
+      "huella": "3a38cc4fb335d1719d3dcbe8300ca147dcbdcdbac380b75a96ae240614e4ec75"
+    },
+    {
+      "ruta": "backend/src/data/store-support.js",
+      "huella": "8bfe42e845b1e62db6ceeac0d28aa8c17a7f7eb48c3e60f69e7a3f418324897c"
+    },
+    {
+      "ruta": "backend/src/data/model.js",
+      "huella": "ea8e49076df420d76ea672d7511d6221fe4e558a3473a38cc9fdf73d6470fa33"
+    },
+    {
+      "ruta": "backend/src/data/migrations.js",
+      "huella": "7b0323c6d317f6c4df534613527991befd4076f315ba3e61e25525e0ee4102ae"
+    },
+    {
+      "ruta": "backend/src/data/rules.js",
+      "huella": "8222b8169ee86f25cdccd84d340340060ae3f0cff55e2ea9d344d7c332733b71"
+    },
+    {
+      "ruta": "backend/src/data/rules-engine.js",
+      "huella": "45b74a7ad496365e6f6b21b78b943b8a8ffd7766fa28c083a69bb14da0d91a7a"
+    },
+    {
+      "ruta": "backend/db/migrations/0001_init.sql",
+      "huella": "6461802d9f8c8170145c5b28ae25df997e633cbe3a5d8f71274f42b67d286918"
+    },
+    {
+      "ruta": "backend/db/migrations/0002_auth.sql",
+      "huella": "ca565935c3aa6485270a49bbeead0d5fc10d664f445a4b2097508902b004dbda"
+    },
+    {
+      "ruta": "backend/db/migrations/0003_seed.sql",
+      "huella": "a1e02d7bd69e2f6a1195188cb5d1f46255d1c7d5b017682f70d864e218b2a1b5"
+    },
+    {
+      "ruta": "backend/src/security/http-security.js",
+      "huella": "7f17488361619f71f4c6ac80180d6d11701a8c1fb3a1c283f91e4dbd2f7f7271"
+    },
+    {
+      "ruta": "backend/openapi.json",
+      "huella": "b954af9389afc228aca932725a6362ab6a1257c5e8cb7765a105d4fc32ac76eb"
+    },
+    {
+      "ruta": "backend/src/docs/openapi.js",
+      "huella": "7de14b99c07c22d126973b677318e14fe6827ad5dc11ae24911ec595aa2374db"
+    },
+    {
+      "ruta": "backend/src/auth/policy.js",
+      "huella": "13b661cfa74feb5149f2207ab675fbbc9be73e52cdd6c136c0d57cff63740dcb"
+    },
+    {
+      "ruta": "backend/src/auth/auth-core.js",
+      "huella": "11393450d63759fbec53ca43ee3dece377b74146b147de0ed5d46d894633d052"
+    },
+    {
+      "ruta": "backend/src/auth.service.ts",
+      "huella": "f99710ee654de965404cafa7b9716d0a61e3ea31a229551ea8ea4fd702b32a16"
+    },
+    {
+      "ruta": "backend/src/auth.guard.ts",
+      "huella": "b36ee2ac7579eeaee31144d5c9032589e25a06da42377a3831a20a432e94ce89"
+    },
+    {
+      "ruta": "backend/src/auth.controller.ts",
+      "huella": "85579d9dec7dc5e392666f11f86fdaff49f9503ad1eb7ea2fa78ef3c0c5fe406"
+    },
+    {
+      "ruta": "backend/src/modules/rf-01/rf-01.module.ts",
+      "huella": "2d9a6ce3a512618e195619d2c48dbd000da24b45a825159b324b402c077f3d9a"
+    },
+    {
+      "ruta": "backend/src/modules/rf-02/rf-02.module.ts",
+      "huella": "d8792fc1b98d6de7faaaf4a788eb38dee22aceffa60be021ecabff33b05ea183"
+    },
+    {
+      "ruta": "backend/src/modules/rf-03/rf-03.module.ts",
+      "huella": "24a9bbe11483721b53cc2a037e21151b1c2a893dd2096d9177ba60afdd8c1105"
+    },
+    {
+      "ruta": "backend/src/modules/rf-04/rf-04.module.ts",
+      "huella": "572da19c2f6dc2691cc4c1a16f06253d5479a181b8edf9e4c0761b177002bc2a"
+    },
+    {
+      "ruta": "backend/src/modules/rf-05/rf-05.module.ts",
+      "huella": "0abb93344ea430d5ef27f8ff60979ab38e12d0688ceef6ae8e6fb135f3a4d64f"
+    },
+    {
+      "ruta": "backend/src/modules/rf-06/rf-06.module.ts",
+      "huella": "3aea648b753146e4e0635f1281ec6b9d7c3b25251a0053a7c95de50f59eaf928"
+    },
+    {
+      "ruta": "backend/src/modules/rf-07/rf-07.module.ts",
+      "huella": "fc8ece706d088178ae4e9b8b0ea9dc92b6f267cfc161e28fd65bade33fe647f3"
+    },
+    {
+      "ruta": "backend/src/modules/rf-08/rf-08.module.ts",
+      "huella": "8d3737dfe0e0afefe4cd13124443f3983a0255781b0c87c57c9fbf057423ef17"
+    },
+    {
+      "ruta": "backend/src/modules/rf-09/rf-09.module.ts",
+      "huella": "da474bb66539537f59d51e5c7863b3c4a53ddd13886d70e2e31e2ec3c815878d"
+    },
+    {
+      "ruta": "backend/src/modules/rf-10/rf-10.module.ts",
+      "huella": "fbe23791c45905fb5d4e996e9921f0d2759fcc8db59d42cafc0f3fb5a76c1233"
+    },
+    {
+      "ruta": "backend/GENERATION-REPORT.json",
+      "huella": "e4ae0e29cd09437f826dc3500ac0bcd06e4fcf1b49e986cb11bfe3423d53b503"
+    },
+    {
+      "ruta": "backend/GENERATION-REPORT.md",
+      "huella": "dcab12297302cb2260b6e5e793ff00e51e2f2c868afd4830032ac148024b419c"
+    },
+    {
+      "ruta": "frontend/package.json",
+      "huella": "e9135190bb42505385f589b3abad0f063cebba17bf4e17068b4b7f48e29661c3"
+    },
+    {
+      "ruta": "frontend/vite.config.js",
+      "huella": "3ce6b3efac3a6122744eeff39f415980ea4fe5d3d9ba606e760b5ba17e1731d7"
+    },
+    {
+      "ruta": "frontend/index.html",
+      "huella": "f84c7f6907a5405a52fa9d99ecf9e7f7f9fbc44594eaeae64227276f82afd698"
+    },
+    {
+      "ruta": "frontend/src/main.jsx",
+      "huella": "0eb119c994dd77bfad63c61385c9bbbeaa56e0b15a88ee9d12e54cf408a9ee4a"
+    },
+    {
+      "ruta": "frontend/src/OperationScreen.jsx",
+      "huella": "68c70879b6bb858e37d8430f195965d704b324725ffa777c162936ae04b82e75"
+    },
+    {
+      "ruta": "frontend/src/JsonOperationScreen.jsx",
+      "huella": "5ff7257b91d99077d9dd37aec060bf99352e1f87c4f3063b0e22cc5eff88b618"
+    },
+    {
+      "ruta": "frontend/src/session.jsx",
+      "huella": "0c0665355c68c90fdce58e006f91f211ade74f911b506938b55b9762dfba39d1"
+    },
+    {
+      "ruta": "frontend/src/AssociationsPanel.jsx",
+      "huella": "9afe9e3c91d454638d007d50c9c0f6c0ea264ee22736e0132e53c9831e5b6a1f"
+    },
+    {
+      "ruta": "frontend/src/LoginScreen.jsx",
+      "huella": "5cde96278b009ad29e1d173740f5746b2a0c9610ace73ef962f4a196c55cf8e7"
+    },
+    {
+      "ruta": "frontend/src/UsersScreen.jsx",
+      "huella": "468d626d0ce3bc8a5036a45c22834d1b24cad13a8981107add01bde86bfc1f74"
+    },
+    {
+      "ruta": "frontend/src/styles.css",
+      "huella": "1075ff329a52752cf3c7768a1fffbeec3d0b997e8e4f8d9b9cbf3daed8d0b6a5"
+    },
+    {
+      "ruta": "frontend/icase.manifest.json",
+      "huella": "560dc97953efeaa307a483be86aff9baeae42692457ce5431e0174c138226775"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-detalle-de-platillo.jsx",
+      "huella": "f55ec4da1b12cf2cc10f3a05de10276f5cb7c055c74d57775a07ef775f342c44"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-detalle-de-platillo.html",
+      "huella": "4cf0e74baf7c6d2f08eeaf29841806eb120acab0d6cebe5e386cf747da9ecd38"
+    },
+    {
+      "ruta": "frontend/src/pages/formulario-de-reserva-de-mesa-o-silla.jsx",
+      "huella": "f49c265ffb38ec225b94b65bd8878dada1c6024081d6d081bd7534b89f9de901"
+    },
+    {
+      "ruta": "frontend/mockups-reference/formulario-de-reserva-de-mesa-o-silla.html",
+      "huella": "42fb912078b112d759ba8cfc56e045158101e121e2377cd5586112417a6d61f1"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-codigo-qr-generado.jsx",
+      "huella": "4762df0b3b84f53fd21e99c62e0fad0462549099868c2d6161b08d6eaf68fe8d"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-codigo-qr-generado.html",
+      "huella": "be10d2bd6727d0c24911f519d3b53d0f779dc342b39ef4feb43fb8ca0459ce4d"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-compra-de-paquetes-semanales.jsx",
+      "huella": "7994ce33ba14dd9149d45385b86290786a3e726e4e6611513f7620afbfaf9bc2"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-compra-de-paquetes-semanales.html",
+      "huella": "418a9f2bfb6c986fa286d1a99d534979b3d7470bb31ad1249e9c3dbe8439941e"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-saldo-de-puntos.jsx",
+      "huella": "7682f02ba0a494ef5b7bca5723fed6fca90fe80af059a9943c18a898ca32f566"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-saldo-de-puntos.html",
+      "huella": "7f0f6d8e933dc5b4af2a018093422b1925075ee72a618caeb0a7668eb4b993cb"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-gestion-de-platos-agotados.jsx",
+      "huella": "4e980f599c03682cfdd3b559ae037d4b43ef650cded8b8e33a04cbd4f01cc4ef"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-gestion-de-platos-agotados.html",
+      "huella": "6436480ec1d11334065ac61d3395daf7e8356f9abb693830cb610953beb405f9"
+    },
+    {
+      "ruta": "frontend/src/pages/formulario-de-registro-de-pedidos.jsx",
+      "huella": "578cff8f0dc23a9bc47479294fbc117b94376251b9e42f749ad05771ed2a667d"
+    },
+    {
+      "ruta": "frontend/mockups-reference/formulario-de-registro-de-pedidos.html",
+      "huella": "5245f5c3fdf995f6ef83b4b2c822bb6ad36fbedccb3ea4bc65ffd96e9217e1b5"
+    },
+    {
+      "ruta": "frontend/src/pages/pantalla-de-validacion-de-reserva.jsx",
+      "huella": "98adfd502ab26d6bfb91f0a60c1a06c3bb5be87ea4ddb45748743b10016acc80"
+    },
+    {
+      "ruta": "frontend/mockups-reference/pantalla-de-validacion-de-reserva.html",
+      "huella": "c0f335a3dbed38c457ba1a2d1ae6b619496c46e422e35b8475a483276530489b"
+    },
+    {
+      "ruta": "frontend/src/pages/formulario-de-procesamiento-de-cobro.jsx",
+      "huella": "f7c7c2e369373fac464b3abc3126b6500decaf459d631e09729bb24d9289ee63"
+    },
+    {
+      "ruta": "frontend/mockups-reference/formulario-de-procesamiento-de-cobro.html",
+      "huella": "bb0b5357f5925406dde888b62693fbd3c9629ffc7bf4ba329732278a9b8aedc0"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-validacion-de-plan-prepagado.jsx",
+      "huella": "53a9ef48a49aa3c9c43af35c0bd04f961bc13f3ff877431b32ffd4a210dc9812"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-validacion-de-plan-prepagado.html",
+      "huella": "3ad3cbc246af395b15a0c3a98b1bb7283df5d6c2e9b50b9034a6f3ea72719e38"
+    },
+    {
+      "ruta": "frontend/src/pages/vista-de-reportes-de-ventas.jsx",
+      "huella": "76abce4cd088544737321b46b1628f250e0caa022d6ab76c25c5b1e5d685a2e5"
+    },
+    {
+      "ruta": "frontend/mockups-reference/vista-de-reportes-de-ventas.html",
+      "huella": "399257a1e00711e68018e1eaab68a7bd58cdaafbb4feaa1bef1eaa4543e5b562"
+    },
+    {
+      "ruta": "frontend/src/pages/formulario-de-gestion-de-precios-del-menu.jsx",
+      "huella": "1744f0a74414cc3b68e74272501e20443bddfe2c28521a08d4dc105fba21cfb7"
+    },
+    {
+      "ruta": "frontend/mockups-reference/formulario-de-gestion-de-precios-del-menu.html",
+      "huella": "d98452b3943c9719538772a0f0f669ad43248b0cdbfa835829b3a3a3412a4908"
+    },
+    {
+      "ruta": "frontend/src/App.jsx",
+      "huella": "8097d8312576ac748fc8b8a81d0b57620f24298f5f377683afba48ba5e035381"
+    },
+    {
+      "ruta": "mobile/package.json",
+      "huella": "dacc44a2cdff6bf0057105ae33831c6fe4df6d9832e25d4eb5069ee734d55908"
+    },
+    {
+      "ruta": "mobile/app.json",
+      "huella": "28c18ba5ee23d27b8f846715af98c79ac751aae1d088fa43276771e9c8dccc49"
+    },
+    {
+      "ruta": "mobile/.env.example",
+      "huella": "9284cd0c5a27223b8688fe713524438ab716403a94d1a094ed8bbe51ab0d89fc"
+    },
+    {
+      "ruta": "mobile/App.js",
+      "huella": "b6a8f5216c2f002b7390dc030604e0363ab173242e9a01fe17f8234850d070e4"
+    },
+    {
+      "ruta": "tests/package.json",
+      "huella": "b16eddaf4b21942fbc939b5265140dc289a6be18d1547e3de95e290908b92fbb"
+    },
+    {
+      "ruta": "tests/.env.example",
+      "huella": "2cbc7cadcdef027e8c6bf42bc18a2815558cc6d69003c3961344dbc8eadbc244"
+    },
+    {
+      "ruta": "tests/coverage-matrix.json",
+      "huella": "2cfd198e19f4d2547f16e8269ad00b8b7651410de026cb1fef16bf347164c31a"
+    },
+    {
+      "ruta": "tests/unit/traceability.test.js",
+      "huella": "3db7cb3e2ea726ffcbc283f2e8b9989f3a311d588fde59d57a3024d0dec5dd64"
+    },
+    {
+      "ruta": "tests/integration/api-health.test.js",
+      "huella": "3437d3580c486ffdbf83df5a68275c57d9bc60323df71a3ed95ee68de9c36e32"
+    },
+    {
+      "ruta": "tests/integration/contract-flow.test.js",
+      "huella": "e4abba4c2006cfec21d987e32a68445b2fe33cfbaa142ae45675d31c2c64e404"
+    },
+    {
+      "ruta": "tests/e2e/navigation.spec.js",
+      "huella": "1353b3217e1a6155c1c1c7092cd1ed1060aa9e5841793d7ba38a97b168627bf8"
+    },
+    {
+      "ruta": "tests/e2e/typed-forms.spec.js",
+      "huella": "4776e5920cedcfa4321deafb20039451044b60c19fc73cab5f66c948861b7563"
+    },
+    {
+      "ruta": "tests/e2e/auth.spec.js",
+      "huella": "f8de5161832b99dd7a747b735578701bae5162d35ecc07688b1e67c43f64135e"
+    },
+    {
+      "ruta": "tests/playwright.config.js",
+      "huella": "6947543b3423c693cd4b7db3abeb6c4b35efedee2e03e1e974e6ef43a829aa6f"
+    },
+    {
+      "ruta": "tests/README.md",
+      "huella": "f25ee1c652ab61a9c90b6c0ce4e1af7e79c19ff831918db60f4b466e402fe1e3"
+    },
+    {
+      "ruta": "ops/docker/backend.Dockerfile",
+      "huella": "7d664b7bf4db4d418b0fa0137889635a0bff4468d6798c47fb56ade541633c65"
+    },
+    {
+      "ruta": "ops/docker/frontend.Dockerfile",
+      "huella": "0461607fe75d35a816417f6551800029fc6e5f7223b5a52962088e3218add081"
+    },
+    {
+      "ruta": "ops/docker/nginx.conf",
+      "huella": "1ed367e6a2bef73b2869a229740a338d0aa9a56372121c4370611d4de875585b"
+    },
+    {
+      "ruta": "ops/docker-compose.yml",
+      "huella": "ea2731ca507c35b33ab3efcdba2609390b157803d1136e82fa0d9b87035dbc9d"
+    },
+    {
+      "ruta": "ops/.env.example",
+      "huella": "47581892e830fdf0a481f64aff9859261bb2cda5f2dbcd9f1bc53818b6bd9f84"
+    },
+    {
+      "ruta": "ops/deployment-manifest.json",
+      "huella": "d518f6bb9254b92ea5dee1b362106474a9cb309ad7c7211922fc02817095ac22"
+    },
+    {
+      "ruta": "ops/README.md",
+      "huella": "1b934658e6718783a5e4181e797f03d7ceaa267ce8c7350ada94c25874f1c782"
+    },
+    {
+      "ruta": ".github/workflows/ci-cd.yml",
+      "huella": "72e12c87a701de86a3788f9b4b60e7aac555aadc62bf6879478d151668981a96"
+    },
+    {
+      "ruta": "ops/ci/validate-artifacts.mjs",
+      "huella": "a6c1a1942fb691c401aa8e6fc04f1bfc701db015bffc81067fd42b59cc11a33a"
+    },
+    {
+      "ruta": "ops/ci/README.md",
+      "huella": "c2cf4aa477ff6aff1de2a1775dbed0c8db89a78a991e0c84df75a0cb2cad1ae1"
+    },
+    {
+      "ruta": "ops/ci/pipeline-manifest.json",
+      "huella": "c73238ef59e3debb787cb1934d8935c9abef2b43a97fc0eae02ede6de28a4d7d"
+    }
+  ]
+}

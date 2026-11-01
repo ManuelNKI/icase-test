@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "GourmetFlow",
+    "slug": "gourmetflow",
+    "version": "1.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "requisito": "RF-01",
+    "nombre": "Visualización de menú digital",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-02",
+    "nombre": "Reserva de mesa o silla",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-03",
+    "nombre": "Compra de paquetes semanales prepagados",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-04",
+    "nombre": "Acumulación de puntos por compras",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-05",
+    "nombre": "Visualización de pedidos en tiempo real en cocina",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-06",
+    "nombre": "Marcado de platos agotados por cocina",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-07",
+    "nombre": "Visualización de mesas asignadas y toma de pedidos por meseros",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-08",
+    "nombre": "Validación de reserva mediante código QR",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-09",
+    "nombre": "Procesamiento de cobros y validación de planes prepagados",
+    "backend": true,
+    "frontend": true
+  },
+  {
+    "requisito": "RF-10",
+    "nombre": "Consulta de reportes de ventas y gestión de precios",
+    "backend": true,
+    "frontend": true
+  }
+]

@@ -1,0 +1,4 @@
+import React from 'react';
+import OperationScreen from '../OperationScreen';
+const referenceText="Gestión de Precios del Menú - GourmetFlow GF GourmetFlow Vista de Reportes de Ventas Formulario de Gestión de Precios del Menú Sistema en línea Gestión de Precios del Menú Administrador AD Actualizar Precio de Platillo Seleccionar Platillo Lomo Saltado - $15.00 Ceviche Clásico - $12.50 Ají de Gallina - $10.00 Nuevo Precio ($) Platillo disponible para la venta Cancelar Guardar Cambios Listado Actual de Platillos y Precios Platillo Precio Actual Disponibilidad Acciones Lomo Saltado $15.00 Disponible Editar Ceviche Clásico $12.50 Disponible Editar Ají de Gallina $10.00 Agotado Editar";
+export default function FormularioDeGestionDePreciosDelMenu(){return <OperationScreen title="Formulario de Gestión de Precios del Menú" capabilities={["rf-01","rf-04","rf-08","rf-10"]} referenceText={referenceText}/>;}

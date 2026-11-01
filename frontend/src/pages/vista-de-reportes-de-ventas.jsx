@@ -1,0 +1,4 @@
+import React from 'react';
+import OperationScreen from '../OperationScreen';
+const referenceText="Vista de Reportes de Ventas - GourmetFlow GF GourmetFlow Vista de Reportes de Ventas Formulario de Gestión de Precios del Menú Sistema en línea v1.0 Reportes de Ventas Admin Principal AP Ventas Totales (Mes) $12,450.00 +12% vs mes anterior Pedidos Completados 142 +5% vs mes anterior Ticket Promedio $87.67 Estable Fecha Inicio Fecha Fin Filtrar Exportar CSV ID Transacción Fecha y Hora Método de Pago Monto Estado #TRX-9012 24/10/2023 14:32 Efectivo $45.00 Completado #TRX-9011 24/10/2023 13:15 Transferencia $120.50 Completado #TRX-9010 24/10/2023 12:40 Paquete Prepagado $0.00 Validado #TRX-9009 2";
+export default function VistaDeReportesDeVentas(){return <OperationScreen title="Vista de Reportes de Ventas" capabilities={["rf-10"]} referenceText={referenceText}/>;}

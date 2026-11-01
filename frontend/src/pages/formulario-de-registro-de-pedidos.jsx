@@ -1,0 +1,4 @@
+import React from 'react';
+import OperationScreen from '../OperationScreen';
+const referenceText="Formulario de Registro de Pedidos GF GourmetFlow Sistema en línea Mesero: Carlos Pérez Formulario de Registro de Pedidos Tablet Operativa v1.0 Registro de Nuevo Pedido Asigne platillos a la mesa y valide la reserva del cliente. Mesa Asignada * Seleccione una mesa... Mesa 01 (Cap. 4) - Ocupada Mesa 02 (Cap. 2) - Reservada Mesa 05 (Cap. 6) - Disponible Código QR de Reserva Escanear QR Selección de Platillos del Menú Platillo Precio Disponibilidad Cantidad Lomo Saltado $18.50 Disponible Ceviche Clásico $15.00 Disponible Total Estimado: $18.50 Cancelar Registrar Pedido";
+export default function FormularioDeRegistroDePedidos(){return <OperationScreen title="Formulario de Registro de Pedidos" capabilities={["rf-02","rf-05","rf-07","rf-08"]} referenceText={referenceText}/>;}

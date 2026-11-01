@@ -1,0 +1,4 @@
+import React from 'react';
+import OperationScreen from '../OperationScreen';
+const referenceText="Validación de Plan Prepagado - GourmetFlow GF GourmetFlow Formulario de Procesamiento de Cobro Vista de Validación de Plan Prepagado Sistema en línea Validación de Planes Prepagados Cajero Principal Rol: Cajero CP Nuevo Plan ID Plan Cliente Descripción Saldo Actual Estado Acciones PP-1001 Carlos Mendoza Paquete Semanal Ejecutivos (10 comidas) $45.00 Activo Validar y Descontar PP-1002 Ana Gómez Paquete Semanal Vegetariano (5 comidas) $12.50 Por Agotar Validar y Descontar PP-1003 Luis Torres Paquete Semanal Ejecutivo (10 comidas) $0.00 Agotado Sin Saldo";
+export default function VistaDeValidacionDePlanPrepagado(){return <OperationScreen title="Vista de Validación de Plan Prepagado" capabilities={["rf-03","rf-08","rf-09"]} referenceText={referenceText}/>;}
