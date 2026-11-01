@@ -59,6 +59,9 @@ jobs:
       JWT_SECRET: ci-only-secret-not-for-production
       ADMIN_EMAIL: admin@example.test
       ADMIN_PASSWORD: ci-admin-password-123
+      # Límites exclusivos del entorno aislado de pruebas.
+      HTTP_RATE_MAX: 3000
+      AUTH_RATE_MAX: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
